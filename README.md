@@ -9,7 +9,7 @@ O 4Food é um projeto de uma grande rede de supermercados que está buscando se 
 (iv) Área de convivência com Restaurante. 
 
 ## Logo
-![Alt text](https://www.notion.so/Projeto-Landing-Page-WFS-7b37ff1460e741b1b5e1e049d7df9d69)
+![Screenshot](4food logo normal.png)
 
 ## Paleta de Cores
 https://www.colourlovers.com/palette/760804/The_Dream_Is_Gone
