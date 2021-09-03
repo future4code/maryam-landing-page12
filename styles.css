@@ -11,6 +11,32 @@ body {
 }
 
 
+header {
+    background-color: #FCFBF6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 120px 40px;
+    align-items: center;
+}
+
+.logo {
+    width: 115px;
+}
+
+.iconesDeUsuario {
+    width: 25px;
+    padding-left: 10px;
+}
+
+.conjuntosIcone {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 70px;
+}
+
+
+
 footer {
     display: flex;
     flex-direction: row;
@@ -24,3 +50,4 @@ ul, a {
     text-decoration: none;
     color: #582F19;
 }
+
