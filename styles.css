@@ -9,3 +9,18 @@ body {
     grid-template-columns: 1fr;
     height: 100vh;
 }
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #582F19;
+    background-color: #FCFBF6;
+}
+
+ul, a {
+    list-style: none;
+    text-decoration: none;
+    color: #582F19;
+}
