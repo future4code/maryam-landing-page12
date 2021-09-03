@@ -10,6 +10,7 @@ body {
     height: 100vh;
 }
 
+
 header {
     background-color: #FCFBF6;
     display: grid;
@@ -32,5 +33,21 @@ header {
     justify-content: flex-end;
     margin-right: 20px;
     margin-bottom: 70px;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #582F19;
+    background-color: #FCFBF6;
+}
+
+ul, a {
+    list-style: none;
+    text-decoration: none;
+    color: #582F19;
 }
 
