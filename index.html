@@ -1,153 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./styles.css" />
     <title>4Food</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img class="logo" src="./img/transparent-bg-+-shadow-designifysemfrase.png" alt="Logo 4Food">
-        <div class="conjuntosIcone">
-            <img class="iconesDeUsuario" src="./img/icons8-shopping-cart-50.png" alt="Carrinho de Compras">
-            <img class="iconesDeUsuario" src="./img/user.png" alt="Conta de Usuário">
-        </div>
-        <nav>
-            
+      <img
+        class="logo"
+        src="./img/transparent-bg-+-shadow-designifysemfrase.png"
+        alt="Logo 4Food"
+      />
+      <div class="conjuntosIcone">
+        <img
+          class="iconesDeUsuario"
+          src="./img/icons8-shopping-cart-50.png"
+          alt="Carrinho de Compras"
+        />
+        <img
+          class="iconesDeUsuario"
+          src="./img/user.png"
+          alt="Conta de Usuário"
+        />
+      </div>
+      
+        <nav id="navDoHeader">
+          <a href="#secaoSupermercado">Supermercado</a>
+          <a href="#secaoComoFunciona">Como Funciona</a>
+          <a href="#secaoFrutas">Frutas&Verduras</a>
+          <a href="#secaoRestaurante">Restaurante</a>
+          <a href="#secaoContato">Contato</a>
         </nav>
+      
+
+      <div id="inputDoHeader">
+        <input placeholder="Digite seu produto"/>
+        <button>Buscar</button>
+      </div>
+      
     </header>
+
     <main>
-        <div class="secaoInicial">
-            <img class="imagemDoMercado" src="./img/morgan-von-gunten-IF2PxIT7UNE-unsplash2.jpg" alt="imagem do supermercado"/>
+      <div id="secaoInicial">
+        <img
+          class="imagemDoMercado"
+          src="./img/morgan-von-gunten-IF2PxIT7UNE-unsplash2.jpg"
+          alt="imagem do supermercado"
+        />
+      </div>
+
+      <scroll-container id="secaoSupermercado">
+        <div class="card-container">
+          <img src="./img/ovos-removebg-preview.png" alt="imagem de ovos" />
+          <p>Ovos de Galinha Branco</p>
+          <p class="preco">R$ 14,90</p>
+          <button class="botaoAdicionar">+ Adicionar -</button>
         </div>
-        <div class="secaoSupermercado">
-            <div class="card-container">
-                <img src="./img/ovos-removebg-preview.png" alt="imagem de ovos"/>
-                <p>Ovos de Galinha Branco</p>
-                <p class="preco">R$ 14,90</p>
-                <button class="botaoAdicionar">+ Adicionar -</button>
-            </div>
-             <div class="card-container">
-                <img src="./img/aguaDeCoco-removebg-preview.png" alt="imagem de água de coco"/>
-                <p>Água de Coco 1L</p>
-                <p class="preco">R$ 9,35</p>
-                <button class="botaoAdicionar">+ Adicionar -</button>
-            </div>
-             <div class="card-container">
-                <img src="./img/pao-removebg-preview.png" alt="Imagem do pão"/>
-                <p>Pão de Hamburguer 300g</p>
-                <p class="preco">R$ 6,98</p>
-                <button class="botaoAdicionar">+ Adicionar -</button>
-            </div>
-             <div class="card-container">
-                <img src="./img/oleoPeroba-removebg-preview.png" alt="imagem do óleo"/>
-                <p>Óleo de Peróba</p>
-                <p class="preco">R$ 15,99</p>
-                <button class="botaoAdicionar">+ Adicionar -</button>
-            </div>
-            <div class="card-container">
-                <img src="./img/arroz-removebg-preview.png" alt="imagem do arroz"/>
-                <p>Arroz 1kg</p>
-                <p class="preco">R$ 12,45</p>
-                <button class="botaoAdicionar">+ Adicionar -</button>
-            </div>
-             <div class="card-container">
-                <img src="./img/abacate-removebg-preview.png" alt="imagem do abacate"/>
-                <p>Abacate do Seu Zé</p>
-                <p class="preco">R$ 8,35</p>
-                <button class="botaoAdicionar">+ Adicionar -</button>
-            </div>
-             <div class="card-container">
-                <img src="./img/maizena-removebg-preview.png" alt="imagem da maizena"/>
-                <p>Amido de Milho</p>
-                <p class="preco">R$ 14,90</p>
-                <button class="botaoAdicionar">+ Adicionar -</button>
-            </div>
-             <div class="card-container">
-                <img src="./img/racao-removebg-preview.png" alt="imagem da ração"/>
-                <p>Ração Pedigree Carne 3kg</p>
-                <p class="preco">R$ 56,59</p>
-                <button class="botaoAdicionar">- Adicionar +</button>
-            </div>
+        <div class="card-container">
+          <img
+            src="./img/aguaDeCoco-removebg-preview.png"
+            alt="imagem de água de coco"
+          />
+          <p>Água de Coco 1L</p>
+          <p class="preco">R$ 9,35</p>
+          <button class="botaoAdicionar">+ Adicionar -</button>
         </div>
-        <div class="secaoComoFunciona">
-            <div class="comoFuncionaEsquerdo">
-                <h3>Encontre seus produtos favoritos</h3>
-                <p>Encontre seus produtos favoritos no nosso site 4Food. Crie sua conta em nosso site, faça um checklist dos produtos desejados e compre sem sair de casa.</p>
-                <h3>Separamos os produtos para você</h3>
-                <p>Uma equipe treinada fará a separação da sua compra e sua lista estará em nossos banco de dados.</p>
-                <h3>Economize tempo e dinheiro</h3>
-                <p>Retire sua compra na loja ou receba os seu produtos em sua casa com apenas um click.</p>
-                <h3>Pague suas contas com total segurança!</h3>
-                <p>Clique para verificar as formas de pagamentos, e aproveite os benefícios de ser cliente do 4Food, com direito a cashback!</p>
-            </div>
-            <div class="comoFuncionaDireito">
-                <h1>Como Funciona?</h1>
-                <img class="imgComofunciona" src="./img/imageComoFunciona.png" alt="Vendedor Entregando Pedido">
-            </div>
+        <div class="card-container">
+          <img src="./img/pao-removebg-preview.png" alt="Imagem do pão" />
+          <p>Pão de Hamburguer 300g</p>
+          <p class="preco">R$ 6,98</p>
+          <button class="botaoAdicionar">+ Adicionar -</button>
         </div>
-        <div class="secaoFrutas">
-            <div class="centralizFrutas">
-                <img class="imagemFrutas" src="./img/frutas.jpg" alt="Imagem de frutas">     
-                <img class="imagemVerduras" src="./img/legumesverduras.png" alt="Imagem de vegetais"> 
-            </div>
-            <div class="textoFrutasVerduras">
-                <h1>Conheça nossos produtos e fornecedores locais, prezamos por produtos orgânicos.</h1>
-                <h1>Faça seu cadastro e venha ser parceiro nosso:</h1>
-            </div>
-            <button><a href="">CADASTRE-SE!</a>
-            </button>
+        <div class="card-container">
+          <img
+            src="./img/oleoPeroba-removebg-preview.png"
+            alt="imagem do óleo"
+          />
+          <p>Óleo de Peróba</p>
+          <p class="preco">R$ 15,99</p>
+          <button class="botaoAdicionar">+ Adicionar -</button>
         </div>
-        <div class="secaoRestaurante">
-            <div>
-                <h2>Vem conhecer nosso restaurante e compartilhar sabores e hitórias</h2>
-                <br>
-                <br>
-                <h2>Entregamos marmitas todos os dias</h2>
-                <br>
-                <h3>Cardápio dessa Semana</h3>
-                <ul>
-                    <li><b>Segunda sem Carne:</b> Yakissoba de Cogumelos com alho poró</li>
-                    <li><b>Terça do Peixe:</b> Filé de peixe na manteiga com arroz e batatas</li>
-                    <li><b>Quarta do Frango:</b> Strogonoff de Frango com arroz a grega </li>
-                    <li><b>Quinta sem carne:</b> Escondidinho de Mandioquinha com vegetais</li>
-                    <li><b>Sexta saidera:</b> Feijoada de carne seca com vinagrete e farofa</li>
-                </ul>
-                <br>
-                <br>
-                <h2>Faz tua assinatura e ganhe desconto em todos os nossos produtos</h2>
-            </div>
-            <div class="imagemRestaurante">
-                <img src="./img/restaurante.png" alt="imagem do restaurante"/>
-                <img src="./img/restaurante2.JPG" alt="imagem da cozinha"/>
-            </div>
+        <div class="card-container">
+          <img src="./img/arroz-removebg-preview.png" alt="imagem do arroz" />
+          <p>Arroz 1kg</p>
+          <p class="preco">R$ 12,45</p>
+          <button class="botaoAdicionar">+ Adicionar -</button>
         </div>
-        <div class="secaoContato">
-            <h1>CONTATO</h1>
-            <div class="divisaoContato">
-                <div>
-                    <img src="./img/icons8-email-80.png" alt="Email">
-                    <h3>4Food@4Food.com.br</h3> <br>
-                    <img src="./img/icons8-telephone-50.png" alt="Telefone">
-                    <h3>(98) 7654-3210</h3> <br> <br>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1055.553441276837!2d-49.764250988176144!3d-21.678023732911647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1630715311552!5m2!1spt-BR!2sbr" width="550" height="418" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-                <div class="formularioContato">
-                    <h2>Alguma dúvida? Entre em contato conosco:</h2>
-                    <form  action="#">
-                        <input type="text" name="nome" id="nome" placeholder="Nome"> <br>
-                        <input type="number" name="telefone" id="telefone" placeholder="Telefone"> <br>
-                        <input type="text" name="email" id="email" placeholder="E-mail"><br>
-                        <input type="text" name="observacao" id="observacao" placeholder="Observação"> <br>
-                        <button  type="submit">Enviar</button>
-                    </form>
-                </div>
-            </div>
+        <div class="card-container">
+          <img
+            src="./img/abacate-removebg-preview.png"
+            alt="imagem do abacate"
+          />
+          <p>Abacate do Seu Zé</p>
+          <p class="preco">R$ 8,35</p>
+          <button class="botaoAdicionar">+ Adicionar -</button>
         </div>
+        <div class="card-container">
+          <img
+            src="./img/maizena-removebg-preview.png"
+            alt="imagem da maizena"
+          />
+          <p>Amido de Milho</p>
+          <p class="preco">R$ 14,90</p>
+          <button class="botaoAdicionar">+ Adicionar -</button>
+        </div>
+        <div class="card-container">
+          <img src="./img/racao-removebg-preview.png" alt="imagem da ração" />
+          <p>Ração Pedigree Carne 3kg</p>
+          <p class="preco">R$ 56,59</p>
+          <button class="botaoAdicionar">- Adicionar +</button>
+        </div>
+      </scroll-container>
+
+      <scroll-container id="secaoComoFunciona">
+        <div class="comoFuncionaEsquerdo">
+          <h3>Encontre seus produtos favoritos</h3>
+          <p>
+            Encontre seus produtos favoritos no nosso site 4Food. Crie sua conta
+            em nosso site, faça um checklist dos produtos desejados e compre sem
+            sair de casa.
+          </p>
+          <h3>Separamos os produtos para você</h3>
+          <p>
+            Uma equipe treinada fará a separação da sua compra e sua lista
+            estará em nossos banco de dados.
+          </p>
+          <h3>Economize tempo e dinheiro</h3>
+          <p>
+            Retire sua compra na loja ou receba os seu produtos em sua casa com
+            apenas um click.
+          </p>
+          <h3>Pague suas contas com total segurança!</h3>
+          <p>
+            Clique para verificar as formas de pagamentos, e aproveite os
+            benefícios de ser cliente do 4Food, com direito a cashback!
+          </p>
+        </div>
+        <div class="comoFuncionaDireito">
+          <h1>Como Funciona?</h1>
+          <img
+            class="imgComofunciona"
+            src="./img/imageComoFunciona.png"
+            alt="Vendedor Entregando Pedido"
+          />
+        </div>
+      </scroll-container>
+
+      <scroll-container id="secaoFrutas">
+        <div class="centralizFrutas">
+          <img
+            class="imagemFrutas"
+            src="./img/frutas.jpg"
+            alt="Imagem de frutas"
+          />
+          <img
+            class="imagemVerduras"
+            src="./img/legumesverduras.png"
+            alt="Imagem de vegetais"
+          />
+        </div>
+        <div class="textoFrutasVerduras">
+          <h1>
+            Conheça nossos produtos e fornecedores locais, prezamos por produtos
+            orgânicos.
+          </h1>
+          <h1>Faça seu cadastro e venha ser parceiro nosso:</h1>
+        </div>
+        <button><a href="">CADASTRE-SE!</a></button>
+      </scroll-container>
+
+      <scroll-container id="secaoRestaurante">
+        <div>
+            <h1>Restaurante 4FOOD</h1>
+            <br/>
+            <br/>
+          <h2>
+            Vem conhecer nosso restaurante e compartilhar sabores e hitórias
+          </h2>
+          <br />
+          <br />
+          <h2>Entregamos marmitas todos os dias</h2>
+          <br />
+          <h3>Cardápio dessa Semana</h3>
+          <ul>
+            <li>
+              <b>Segunda sem Carne:</b> Yakissoba de Cogumelos com alho poró
+            </li>
+            <li>
+              <b>Terça do Peixe:</b> Filé de peixe na manteiga com arroz e
+              batatas
+            </li>
+            <li>
+              <b>Quarta do Frango:</b> Strogonoff de Frango com arroz a grega
+            </li>
+            <li>
+              <b>Quinta sem carne:</b> Escondidinho de Mandioquinha com vegetais
+            </li>
+            <li>
+              <b>Sexta saidera:</b> Feijoada de carne seca com vinagrete e
+              farofa
+            </li>
+          </ul>
+          <br />
+          <br />
+          <h2>
+            Faz tua assinatura e ganhe desconto em todos os nossos produtos
+          </h2>
+        </div>
+        <div class="imagemRestaurante">
+          <img src="./img/restaurante.png" alt="imagem do restaurante" />
+          <img src="./img/restaurante2.JPG" alt="imagem da cozinha" />
+        </div>
+      </scroll-container>
+
+      <scroll-container id="secaoContato">
+        <h1>CONTATO</h1>
+        <div class="divisaoContato">
+          <div>
+            <img src="./img/icons8-email-80.png" alt="Email" />
+            <h3>4Food@4Food.com.br</h3>
+            <br />
+            <img src="./img/icons8-telephone-50.png" alt="Telefone" />
+            <h3>(98) 7654-3210</h3>
+            <br />
+            <br />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1055.553441276837!2d-49.764250988176144!3d-21.678023732911647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1630715311552!5m2!1spt-BR!2sbr"
+              width="550"
+              height="418"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="formularioContato">
+            <h2>Alguma dúvida? Entre em contato conosco:</h2>
+            <form action="#">
+              <input type="text" name="nome" id="nome" placeholder="Nome" />
+              <br />
+              <input
+                type="number"
+                name="telefone"
+                id="telefone"
+                placeholder="Telefone"
+              />
+              <br />
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+              /><br />
+              <input
+                type="text"
+                name="observacao"
+                id="observacao"
+                placeholder="Observação"
+              />
+              <br />
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </scroll-container>
     </main>
-    <!-- <footer>
+    <footer>
         <div>
             <ul>
                 <li><h3>Política de Privacidade</h3></li>
@@ -162,8 +281,6 @@
             <a href="https://www.instagram.com/" target="_blank"><img src="./img/icons8-instagram-logo-24.png" alt="ícone instagram"/></a>
             <a href="https://twitter.com/" target="_blank"><img src="./img/icons8-twitter-24.png" alt="ícone twitter"/></a>
         </div>
-    </footer> -->
-</body>
+    </footer>
+  </body>
 </html>
-
-
