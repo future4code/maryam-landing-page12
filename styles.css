@@ -150,6 +150,67 @@ main {
   font-weight: bold;
 }
 
+/* Seção Contato */
+
+.secaoContato {
+  grid-row: 8/9;
+  grid-column: 1/ -1;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #582F19;
+}
+
+.divisaoContato {
+  display: flex;
+}
+
+.divisaoContato img {
+  width: 25px;
+}
+
+.divisaoContato h3 {
+  color: #582F19;
+  display: inline;
+}
+
+.divisaoContato iframe {
+  border: 3px solid #5f6340;
+  box-shadow: 4px 3px 4px 4px #6b6f4d;
+}
+
+.formularioContato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formularioContato h2 {
+  color: #582f19;
+  margin-bottom: 91px;
+  margin-left: 25px;
+}
+
+.formularioContato input{
+  margin-bottom: 13px;
+  width: 266px;
+  height: 33px;
+  background-color: #D7E3EF;
+}
+.formularioContato input:nth-of-type(4) {
+  height: 170px;
+}
+
+.formularioContato button {
+  background-color: #fcfbf6;
+  width: 60px;
+  height: 30px;
+  color: #582f19;
+  margin-left: 206px;
+}
+
 /* Footer */
 footer {
     grid-row: 9/-1;
