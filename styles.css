@@ -9,11 +9,12 @@ body {
   grid-template-rows: 120px 1fr 200px;
   grid-template-columns: 1fr;
   max-height: 100vh;
-  font-family: 'Brush Script MT', cursive;
+  font-family: "Brush Script MT", cursive;
 }
 
 ul,
-a {
+a,
+h3 {
   list-style: none;
   text-decoration: none;
   color: #582f19;
@@ -40,12 +41,13 @@ header {
 
 .iconesDeUsuario {
   width: 25px;
-  padding-left: 10px;
+  padding-left: 8px;
 }
 
 .conjuntosIcone {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   margin-right: 20px;
   margin-bottom: 70px;
 }
@@ -118,7 +120,6 @@ img.imagemDoMercado {
   grid-template-rows: 1fr 1fr;
   gap: 25px;
   margin: 100px;
-  
 }
 
 .card-container {
@@ -130,7 +131,6 @@ img.imagemDoMercado {
   padding: 20px;
   background-color: #fcfbf6;
   color: #582f19;
-  
 }
 p.preco {
   font-weight: bold;
@@ -193,13 +193,11 @@ button.botaoAdicionar {
   grid-row: 4/5;
   grid-column: 1/ -1;
 
-  
   display: flex;
   flex-direction: column;
   grid-column: 1/-1;
   justify-content: center;
   align-items: center;
-  
 }
 
 .centralizFrutas {
@@ -264,7 +262,6 @@ button.botaoAdicionar {
   align-items: center;
   color: #582f19;
   background-color: #d7e3ef;
-  
 }
 
 .imagemRestaurante {
@@ -272,16 +269,14 @@ button.botaoAdicionar {
   flex-direction: column;
   gap: 5px;
   margin: 100px 0px 100px 0px;
-  
 }
-
 
 /***************** Seção Contato ********************/
 
 #secaoContato {
   grid-row: 6/7;
   grid-column: 1/ -1;
-  
+
   /* height: 750px; */
   display: flex;
   flex-direction: column;
@@ -351,5 +346,51 @@ footer {
   background-color: #fcfbf6;
   align-items: center;
 }
+
+/************* Pag de Login **************/
+header.loginPage {
+  grid-row-start:1;
+  grid-column: 1/-1;
+
+  background-color: #fcfbf6;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
+#mainDoLogin {
+  grid-column: 1/-1;
+  grid-row-start: 2;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-containerLogin {
+  grid-row: 1/-1;
+  grid-column: 2/3;
+
+  text-align: center;
+  border: 1px solid #5F6340;
+  padding: 50px;
+  margin: 90px;
+}
+
+.card-containerLogin > button {
+  background-color: #5f6340;
+  color: #fcfbf6;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+ footer.loginPage {
+  grid-row-start:3;
+} 
+
 
 
