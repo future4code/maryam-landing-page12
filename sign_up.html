@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <title>4Food</title>
+  </head>
+  <body>
+    <header class="loginPage">
+      <a href="./index.html"><img
+        class="logo"
+        src="./img/transparent-bg-+-shadow-designifysemfrase.png"
+        alt="Logo 4Food"
+      /></a>
+      <div class="conjuntosIcone">
+        <img
+          class="iconesDeUsuario"
+          src="./img/icons8-shopping-cart-50.png"
+          alt="Carrinho de Compras"
+        />
+        <a href="./sign_up.html"><img
+          class="iconesDeUsuario"
+          src="./img/user.png"
+          alt="Conta de Usuário"
+        /></a>
+      </div>
+      <nav id="navDoHeader">
+        <a href="./index.html">Página Inicial</a>
+      </nav>
+      <nav id="navDoHeader">
+        <a href="./loginPage.html">Login</a>
+      </nav>
+    </header>
+    <main id="cadastro">   
+      <div class="formularioCadastro">
+        <ul>
+          <h1>Preencha com suas informações:</h1> <br>
+          <form action="#">
+            <li>
+              <label for="nome">Nome Completo</label>
+              <input type="text"  id="nome" name="nome">
+            </li><br>
+            <li>
+              <label for="data">Data de Nascimento</label>
+              <input type="date" id="data" name="data">
+            </li><br>
+            <li>
+              <label for="cpf">CPF (apenas números)</label>
+              <input type="number" id="cpf" name="cpf">
+            </li><br>
+            <li>
+              <label for="cidade/estado">Cidade e Estado</label>
+              <input type="text" id="cidade/estado" name="cidade/estado">
+            </li><br>
+            <li>
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email">
+            </li><br>
+            <li>
+              <label for="senha">Senha (mín 8 caracteres)</label>
+              <input type="password" id="senha" name="senha" minlength="8">
+            </li><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar</button>
+          </form>
+        </ul>
+    </div>
+    </main>
+    <footer class="loginPage">
+      <div>
+        <ul>
+          <li><h3>Política de Privacidade</h3></li>
+          <li><h3>Dicas de Segurança</h3></li>
+          <li><h3>Termos de Condições de Uso</h3></li>
+          <li><h3>Código de Condulta</h3></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Siga-nos nas redes sociais</h1>
+        <a href="https://www.facebook.com/" target="_blank"><img src="./img/icons8-facebook-24.png" alt="ícone facebok"/></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="./img/icons8-instagram-logo-24.png" alt="ícone instagram"/></a>
+        <a href="https://twitter.com/" target="_blank"><img src="./img/icons8-twitter-24.png" alt="ícone twitter"/></a>
+      </div>
+    </footer>
+  </body>
+</html>
