@@ -31,7 +31,9 @@ https://4food-supermercado.surge.sh/
 ![image](https://user-images.githubusercontent.com/84817937/132143446-07e38ac8-63bd-478b-b9d9-1994a9c9b57f.png)
 ### Mobile 
 ![image](https://user-images.githubusercontent.com/84817937/132144134-f8e5060f-7466-4c9f-a3c5-4077a3ad2df8.png)
+
 ![image](https://user-images.githubusercontent.com/84817937/132144153-4db80474-e059-401c-8c0e-77bd308d6174.png)
+
 ![image](https://user-images.githubusercontent.com/84817937/132144211-4bb6ae97-0f0c-48ce-a002-c083e4e48638.png)
 
 
