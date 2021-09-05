@@ -20,7 +20,7 @@ O 4Food é um projeto de uma grande rede de supermercados que está buscando se 
 ## Paleta de Cores
 https://www.colourlovers.com/palette/760804/The_Dream_Is_Gone
 
-## Link surge
+## Link do site no surge
 https://4food-supermercado.surge.sh/
 
 ## Prints
@@ -28,5 +28,6 @@ https://4food-supermercado.surge.sh/
 ![image](https://user-images.githubusercontent.com/84817937/132143393-e6771d22-97c8-4fc3-bec7-2364c2e2b035.png)
 ![image](https://user-images.githubusercontent.com/84817937/132143398-626eeeb1-dbbd-490f-9c5c-ac5301de46d6.png)
 ![image](https://user-images.githubusercontent.com/84817937/132143404-55fa5fab-c285-419c-93c3-74a5897b4d6d.png)
-![image](https://user-images.githubusercontent.com/84817937/132143412-acdb6611-074c-43f4-b687-b6d507b3ff2b.png)
+![image](https://user-images.githubusercontent.com/84817937/132143446-07e38ac8-63bd-478b-b9d9-1994a9c9b57f.png)
+
 
