@@ -23,11 +23,15 @@ https://www.colourlovers.com/palette/760804/The_Dream_Is_Gone
 ## Link do site no surge
 https://4food-supermercado.surge.sh/
 
-## Prints
+## Prints do site
 ![image](https://user-images.githubusercontent.com/84817937/132143389-d61140b0-cdd2-42df-a80b-0495f6ebdb17.png)
 ![image](https://user-images.githubusercontent.com/84817937/132143393-e6771d22-97c8-4fc3-bec7-2364c2e2b035.png)
 ![image](https://user-images.githubusercontent.com/84817937/132143398-626eeeb1-dbbd-490f-9c5c-ac5301de46d6.png)
 ![image](https://user-images.githubusercontent.com/84817937/132143404-55fa5fab-c285-419c-93c3-74a5897b4d6d.png)
 ![image](https://user-images.githubusercontent.com/84817937/132143446-07e38ac8-63bd-478b-b9d9-1994a9c9b57f.png)
+### Mobile 
+![image](https://user-images.githubusercontent.com/84817937/132144134-f8e5060f-7466-4c9f-a3c5-4077a3ad2df8.png)
+![image](https://user-images.githubusercontent.com/84817937/132144153-4db80474-e059-401c-8c0e-77bd308d6174.png)
+![image](https://user-images.githubusercontent.com/84817937/132144211-4bb6ae97-0f0c-48ce-a002-c083e4e48638.png)
 
 
