@@ -46,7 +46,9 @@ header {
   width: 25px;
   padding-left: 8px;
 }
-
+.iconesDeUsuario:hover {
+  width: 30px;
+}
 .conjuntosIcone {
   display: flex;
   justify-content: flex-end;
@@ -141,6 +143,12 @@ img.imagemDoMercado {
   background-color: #fcfbf6;
   color: #582f19;
 }
+
+.card-container:hover {
+  background-color:#d7e3ef;
+  border: outset;
+  box-shadow:2px 4px 4px 1px#5f6340 ;
+}
 p.preco {
   font-weight: bold;
   padding: 5px;
@@ -177,6 +185,16 @@ button.botaoAdicionar {
 .comoFuncionaEsquerdo p {
   margin-bottom: 65px;
   margin-top: -87px;
+  background-color:#fcfbf6;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.comoFuncionaEsquerdo p:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  box-shadow:2px 2px 2px 2px #5f6340 ;
 }
 
 .comoFuncionaDireito {
@@ -217,6 +235,7 @@ button.botaoAdicionar {
   width: 755px;
   height: 750px;
 }
+
 
 .imagemVerduras {
   width: 755px;
@@ -270,6 +289,11 @@ button.botaoAdicionar {
   align-items: center;
   color: #582f19;
   background-color: #d7e3ef;
+}
+
+#secaoRestaurante ul:hover{
+  border: 3px solid #582f19;
+  background-color:#fcfbf6 ;
 }
 
 .imagemRestaurante {
