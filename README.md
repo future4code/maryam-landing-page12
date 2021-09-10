@@ -1,4 +1,4 @@
-# Landing-page-template
+# landing-page-template
 
 ## Projeto 4Food - Mercado digital
 O 4Food é um projeto de uma grande rede de supermercados que está buscando se digitalizar e criar um sistema de compras e entregas recorrentes por site e aplicativo. Dessa forma foi criada uma landing page que se comunica com velocidade e praticidade trazendo solução, destacando a possibilidade de realizar: 
